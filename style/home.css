@@ -15,9 +15,9 @@ a {
     position: fixed;
     top: 0px;
     left: 0px;
-    height: 110%;
+    height: 100%;
     width: 100%;
-    background-image: url("../images/head-background4.jpeg");
+    background-image: url("images/head-background4.jpeg") no-repeat;
     background-size: 120%;
     background-position: bottom;
     color: white;
@@ -46,19 +46,27 @@ a {
 .menu {
   background-color: white;
   position: relative;
-  top: 5.82em;
-  height: 1.95em;
+  top: 7.02em;
+  height: 2.2em;
   color: black;
-  font-size: 2em;
+  font-size: 1.65em;
 }
 
 .menu-element {
-  padding: .4em;
+  padding: .5em;
   float: left;
 }
 
+.menu-current {
+  font-weight: 900;
+  font-size: 3em;
+  background: url(images/head-background4.jpeg);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
 #menu-first {
-  padding-left: .2em;
+  padding-left: .5em;
 }
 
 .content {
