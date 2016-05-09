@@ -3,7 +3,7 @@ body {
   margin: 0;
   padding: 0;
   border: 0;
-  background-image: url("../images/head-background.jpeg");
+  background-image: url("../images/background.jpg");
   background-size: 100%, cover;
   background-position: top, center;
   overflow-y: hidden;
@@ -34,8 +34,7 @@ a {
 .title {
   position: relative;
   top: 25vh;
-  right: 3vw;
-  font-size: 8em;
+  font-size: 7em;
   text-align: right;
 }
 
@@ -51,7 +50,7 @@ a {
 .menu {
   background-color: white;
   position: relative;
-  height: 2.19em;
+  height: 2.17em;
   color: black;
   font-size: 1.65em;
 }
@@ -65,9 +64,8 @@ a {
 
 .menu-element:hover {
   color: white;
-  background-image: url("../images/head-background.jpeg");
+  background-image: url("../images/background.jpg");
   background-size: 100vw;
-  background-position-y: 0;
   background-attachment: fixed;
 }
 
@@ -80,9 +78,8 @@ a {
   font-weight: bold;
   color: transparent;
   -webkit-background-clip: text;
-  background-image: url("../images/head-background.jpeg");
+  background-image: url("../images/background-dark.jpeg");
   background-size: 100vw;
-  background-position-y: 0;
   background-attachment: fixed;
 }
 

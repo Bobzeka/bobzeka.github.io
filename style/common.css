@@ -4,7 +4,7 @@ body {
   margin: 0;
   padding: 0;
   border: 0;
-  background-image: url("../images/head-background.jpeg");
+  background-image: url("../images/background.jpg");
   background-size: 100%, cover;
   background-position: top, center;
 }
@@ -22,6 +22,7 @@ a {
 }
 
 .title-box {
+  position: absolute;
   float: left;
   padding: .25em 0em .25em 2em;
   height: 2.2em;
@@ -30,29 +31,29 @@ a {
 
 .title {
   font-size: 3em;
-  padding-right: 0em;
   color: white;
 }
 
 .rightSide {
   position: absolute;
   left: 20vw;
-  float: right;
+  float: left;
   width: 80vw;
 }
 
 .menu-box {
-  position: relative;
-  float: right;
+  background-color:white;
+  position: absolute;
+  float: left;
   width: 100%;
 }
 
 .menu {
   background-color: white;
   position: relative;
-  height: 2.2em;
+  height: 2.17em;
   top: 0;
-  font-size: 1.65em;
+  font-size: 150%;
 }
 
 .menu-element {
@@ -64,18 +65,24 @@ a {
   padding-left: 1.2em;
 }
 
+.menu-element:hover {
+  color: white;
+  background-image: url("../images/background.jpg");
+  background-size: 100vw;
+  background-attachment: fixed;
+}
+
 #menu-current-box {
   /* for future development */
 }
 
 #menu-current {
-  background: white;
+  font-weight: bold;
   color: transparent;
   -webkit-background-clip: text;
-  background-image: url("../images/head-background.jpeg");
-  background-size: 100vh, cover;
-  background-position: top, center;
-  background-attachment: scroll, fixed;
+  background-image: url("../images/background-dark.jpeg");
+  background-size: 100vw;
+  background-attachment: fixed;
 }
 
 .content {
