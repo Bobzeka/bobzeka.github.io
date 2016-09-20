@@ -51,7 +51,7 @@ a {
 .menu {
   background-color: white;
   position: relative;
-  height: 2.17em;
+  height: 2.15em;
   top: 0;
   font-size: 150%;
 }
@@ -88,6 +88,7 @@ a {
 .content {
   width: 58vw;
   margin-top: 4.5em;
+  margin-bottom: 1em;
   padding: 1vw;
   background-color: white;
   border-radius: .2em;
@@ -101,9 +102,14 @@ a {
 
 .copyright {
   position: fixed;
+  width: 20em;
+  left: 50%;
+  margin-left: -10em;
   bottom: 0vh;
-  width: 60vw;
+  border-radius: .5em .5em 0 0;
   text-align: center;
   font-size: .6em;
-  color: white;
+  background-color: white;
+  color: black;
+  z-index: -1;
 }
