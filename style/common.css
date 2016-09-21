@@ -87,22 +87,32 @@ a {
   background-image: url("../images/background.jpg");
   background-size: 100vw, cover;
   background-attachment: fixed;
+  background-position: top, left;
 }
 
 #menu-current-text {
+  color: black;
+  -webkit-text-fill-color: transparent;
+  background: -webkit-linear-gradient(transparent, transparent),
+             url("../images/background-dark.jpeg") repeat;
+  background: -o-linear-gradient(transparent, transparent);
   -webkit-background-clip: text;
-  background-image: url("../images/background-dark.jpeg");
   background-size: 100vw;
-  background-position: top, left;
+  background-position: top;
 }
 
 #menu-current {
+  display: block;
+  vertical-align: middle;
+  padding: .5em .4em;
+  float: left;
   font-weight: bold;
-  color: transparent;
+  color: black;
+  -webkit-text-fill-color: transparent;
+  background: -webkit-linear-gradient(transparent, transparent),
+             url("../images/background-dark.jpeg") repeat;
+  background: -o-linear-gradient(transparent, transparent);
   -webkit-background-clip: text;
-  background-image: url("../images/background-dark.jpeg");
-  background-size: 100vw, cover;
-  background-position: top, left;
 }
 
 .content {
