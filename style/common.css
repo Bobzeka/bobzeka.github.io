@@ -18,22 +18,31 @@ a {
   position: fixed;
   top: 0;
   left: 0;
+  height: 3.15em;
   width: 100%;
   background-size: 100%;
   background-position: bottom;
   color: white;
+  margin-bottom: 0;
+  bottom: 0;
 }
 
 .title-box {
   float: left;
-  padding: .25em 0em .25em 2em;
-  height: 2.2em;
+  height: 3.15em;
+  width: 20vw;
+  margin-bottom: 0;
+  bottom: 0;
 }
   
 
 .title {
   position: relative;
-  font-size: 3em;
+  padding: 0;
+  text-align: center;
+  vertical-align: bottom;
+  bottom: 0;
+  font-size: 3vw;
   color: white;
 }
 
