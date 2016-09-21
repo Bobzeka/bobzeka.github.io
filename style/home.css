@@ -1,5 +1,6 @@
 body {
-    font-family: "Raleway", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: "Raleway", "HelveticaNeue", "Helvetica Neue",
+      Helvetica, Arial, sans-serif;
   margin: 0;
   padding: 0;
   border: 0;
@@ -50,7 +51,7 @@ a {
 .menu {
   background-color: white;
   position: relative;
-  height: 2.17em;
+  height: 2.15em;
   color: black;
   font-size: 1.65em;
 }
@@ -69,8 +70,11 @@ a {
   background-attachment: fixed;
 }
 
-#menu-current-box {
-  /* for future development */
+#menu-current-text {
+  -webkit-background-clip: text;
+  background-image: url("../images/background-dark.jpeg");
+  background-size: 100vw;
+  background-attachment: fixed;
 }
 
 #menu-current {

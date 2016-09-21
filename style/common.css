@@ -1,12 +1,12 @@
 body {
     font-family: "Raleway", "HelveticaNeue", "Helvetica Neue",
-    Helvetica, Arial, sans-serif;
+      Helvetica, Arial, sans-serif;
   margin: 0;
   padding: 0;
   border: 0;
   background-image: url("../images/background.jpg");
-  background-size: 100%, cover;
-  background-position: top, center;
+  background-size: 100vw, cover;
+  background-position: top, left;
 }
 
 a {
@@ -16,13 +16,15 @@ a {
 
 .header {
   position: fixed;
-  top: 0px;
-  left: 0px;
+  top: 0;
+  left: 0;
   width: 100%;
+  background-size: 100%;
+  background-position: bottom;
+  color: white;
 }
 
 .title-box {
-  position: absolute;
   float: left;
   padding: .25em 0em .25em 2em;
   height: 2.2em;
@@ -30,6 +32,7 @@ a {
   
 
 .title {
+  position: relative;
   font-size: 3em;
   color: white;
 }
@@ -42,21 +45,22 @@ a {
 }
 
 .menu-box {
-  background-color:white;
   position: absolute;
-  float: left;
   width: 100%;
+  top: 0;
 }
 
 .menu {
   background-color: white;
   position: relative;
   height: 2.15em;
-  top: 0;
+  color: black;
   font-size: 150%;
 }
 
 .menu-element {
+  display: block;
+  vertical-align: middle;
   padding: .5em .4em;
   float: left;
 }
@@ -65,15 +69,22 @@ a {
   padding-left: 1.2em;
 }
 
+.menu-link {
+  background-color: white;
+}
+
 .menu-element:hover {
   color: white;
   background-image: url("../images/background.jpg");
-  background-size: 100vw;
+  background-size: 100vw, cover;
   background-attachment: fixed;
 }
 
-#menu-current-box {
-  /* for future development */
+#menu-current-text {
+  -webkit-background-clip: text;
+  background-image: url("../images/background-dark.jpeg");
+  background-size: 100vw;
+  background-position: top, left;
 }
 
 #menu-current {
@@ -81,8 +92,8 @@ a {
   color: transparent;
   -webkit-background-clip: text;
   background-image: url("../images/background-dark.jpeg");
-  background-size: 100vw;
-  background-attachment: fixed;
+  background-size: 100vw, cover;
+  background-position: top, left;
 }
 
 .content {
