@@ -1,0 +1,19 @@
+<?xml version="1.0" encodings="UTF-8"?>
+<urlset xmlns="http://sitemaps.org/schemas/sitemap/0.9">
+  <url>
+    <loc>http://austinleal.com/</loc>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>http://austinleal.com/pages/bio.html</loc>
+  </url>
+  <url>
+    <loc>http://austinleal.com/pages/work.html</loc>
+  </url>
+  <url>
+    <loc>http://austinleal.com/resources/AustinLeal_Resume.pdf</loc>
+  </url>
+  <url>
+    <loc>http://austinleal.com/pages/contact.html</loc>
+  </url>
+</urlset>
