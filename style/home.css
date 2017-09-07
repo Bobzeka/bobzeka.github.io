@@ -5,7 +5,7 @@ body {
   padding: 0;
   border: 0;
   background-image: url("../images/background.jpg");
-  background-size: 100%, cover;
+  background-size: 100vw, cover;
   overflow-y: hidden;
   background-
 }
@@ -16,13 +16,11 @@ a {
 }
 
 .header {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    background-size: 100%;
-    background-position: bottom;
-    color: white;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  color: white;
 }
 
 .title-box {

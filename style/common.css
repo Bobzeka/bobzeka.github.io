@@ -82,7 +82,7 @@ a {
 .menu-element:hover {
   color: white;
   background-image: url("../images/background.jpg");
-  background-size: 100vw, cover;
+  background-size: 100%, cover;
   background-attachment: fixed;
 }
 
@@ -102,7 +102,7 @@ a {
              url("../images/background.jpg") repeat;
   background: -o-linear-gradient(transparent, transparent);
   -webkit-background-clip: text;
-  background-size: 100vw;
+  background-size: 100%;
   background-attachment: fixed;
 }
 
