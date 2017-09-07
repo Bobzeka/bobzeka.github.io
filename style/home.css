@@ -6,7 +6,6 @@ body {
   border: 0;
   background-image: url("../images/background.jpg");
   background-size: 100%, cover;
-  background-position: top, center;
   overflow-y: hidden;
 }
 
@@ -30,7 +29,7 @@ a {
   height: 100%;
   width: 50%;
 }
-  
+
 
 .title {
   position: relative;
@@ -46,14 +45,14 @@ a {
   left: calc(50% + 3vw);
   width: 50%;
   top: 28.5vh;
+  border-top-left-radius: .2em;
+  border-bottom-left-radius: .2em;
 }
 
 .menu {
-  background-color: white;
   position: relative;
-  height: 2.15em;
-  color: black;
   font-size: 1.65em;
+  color: black;
 }
 
 .menu-element {
@@ -71,29 +70,24 @@ a {
 }
 
 #menu-current-text {
-  color: black;
-  -webkit-text-fill-color: transparent;
-  background: -webkit-linear-gradient(transparent, transparent),
-             url("../images/background-dark.jpeg") repeat;
-  background: -o-linear-gradient(transparent, transparent);
+  background-image: url("../images/background.jpg");
+  background-size: 100vw, cover;
+  background-attachment: fixed;
   -webkit-background-clip: text;
-  background-size: 100vw;
+  -moz-background-clip: text;
+  background-clip: text;
+  color: transparent;
 }
 
 #menu-current {
   display: block;
   vertical-align: middle;
-  padding: .5em;
   float: left;
-  padding-left: 1em;
+  padding: .5em;
   font-weight: bold;
-  color: black;
-  -webkit-text-fill-color: transparent;
-  background: -webkit-linear-gradient(transparent, transparent),
-             url("../images/background-dark.jpeg") repeat;
-  background: -o-linear-gradient(transparent, transparent);
-  -webkit-background-clip: text;
   background-size: 100vw;
+  background-attachment: fixed;
+  box-shadow: 0 0;
 }
 
 #photo {
@@ -102,7 +96,7 @@ a {
   margin-left: auto;
   margin-right: auto;
   width: 12%;
-}   
+}
 
 .content {
     position: fixed;
