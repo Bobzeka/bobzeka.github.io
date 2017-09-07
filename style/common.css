@@ -5,7 +5,7 @@ body {
   padding: 0;
   border: 0;
   background-image: url("../images/background.jpg");
-  background-size: 100vw, cover;
+  background-size: 100%, cover;
   background-attachment: fixed;
 }
 
